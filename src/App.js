@@ -1,7 +1,14 @@
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <>
+      <Header />
+      <Nav />
+      <Main />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
