@@ -1,9 +1,11 @@
-import logo from "./Logo.png";
+import logo from "./assets/Logo.png";
 
 function Header() {
   return (
     <header>
-      <img href={logo} alt="logo" />
+      <img src={logo} alt="lemon" />
     </header>
   );
 }
+
+export default Header;
