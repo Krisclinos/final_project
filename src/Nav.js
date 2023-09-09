@@ -8,9 +8,10 @@ function Nav() {
         gap: "50px",
         alignItems: "center",
         textDecoration: "none",
+        padding: "10px 40px 10px 40px",
       }}
     >
-      <img src={logo} alt="lemon" />
+      <img style={{ height: "40px" }} src={logo} alt="lemon" />
       <ul
         style={{
           display: "flex",

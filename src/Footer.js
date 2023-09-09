@@ -10,8 +10,8 @@ function Footer() {
         backgroundColor: "#495E57",
         color: "#FFFFFF",
         listStyle: "none",
-        paddingLeft: "50px",
-        paddingRight: "50px",
+        paddingLeft: "10px",
+        paddingRight: "10px",
       }}
     >
       <img src={logo2} alt="lemon" />
