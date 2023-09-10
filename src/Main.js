@@ -1,16 +1,23 @@
 import salad from "./assets/Greek Salad.png";
+import bruschetta from "./assets/Bruschetta.png";
+import lemonCake from "./assets/Lemon Cake.png";
+import platter from "./assets/platter.png";
 
 function Main() {
   return (
     <main>
-      <div style={{ display: "flex" }}>
-        <div
-          style={{
-            backgroundColor: "#495E57",
-            width: "100vw",
-            paddingLeft: "40px",
-          }}
-        >
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          paddingLeft: "40px",
+          paddingRight: "40px",
+          marginLeft: "10%",
+          marginRight: "10%",
+          backgroundColor: "#495E57",
+        }}
+      >
+        <div>
           <h1 style={{ color: "#F4CE14" }}>Little Lemon</h1>
           <h2 style={{ color: "#F4CE14" }}>Chicago</h2>
           <p>
@@ -19,10 +26,25 @@ function Main() {
           </p>
           <button style={{ backgroundColor: "#F4CE14" }}>Book a table</button>
         </div>
-        <div>{/* image */}</div>
+        <div style={{ padding: "20px 40px 20px 0px" }}>
+          <img
+            style={{ height: "100%", width: "100%" }}
+            src={platter}
+            alt="platter"
+          />
+        </div>
       </div>
 
-      <div style={{ paddingLeft: "40px", paddingRight: "40px" }}>
+      <div
+        style={{
+          paddingLeft: "40px",
+          paddingRight: "40px",
+          marginLeft: "10%",
+          marginRight: "10%",
+          backgroundColor: "white",
+          paddingBottom: "40px",
+        }}
+      >
         <div style={{ display: "flex", justifyContent: "space-between" }}>
           <h1>Specials</h1>
           <button style={{ backgroundColor: "#F4CE14" }}>Order Online</button>
@@ -35,12 +57,14 @@ function Main() {
             gap: "60px",
           }}
         >
-          <div style={{ border: "1px solid" }}>
-            <img
-              style={{ maxHeight: "100%", maxWidth: "100%" }}
-              src={salad}
-              alt="greek salad"
-            />
+          <div style={{ border: "1px solid", backgroundColor: "white" }}>
+            <div>
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={salad}
+                alt="greek salad"
+              />
+            </div>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <h2>Greek Salad</h2>
               <p>10€</p>
@@ -51,7 +75,15 @@ function Main() {
             </p>
             <p>Order a delivery!</p>
           </div>
-          <div style={{ border: "1px solid" }}>
+
+          <div style={{ border: "1px solid", backgroundColor: "white" }}>
+            <div>
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={bruschetta}
+                alt="bruschetta"
+              />
+            </div>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <h2>Bruschetta</h2>
               <p>10€</p>
@@ -62,7 +94,14 @@ function Main() {
             </p>
             <p>Order a delivery!</p>
           </div>
-          <div style={{ border: "1px solid" }}>
+          <div style={{ border: "1px solid", backgroundColor: "white" }}>
+            <div>
+              <img
+                style={{ height: "100%", width: "100%" }}
+                src={lemonCake}
+                alt="lemon cake"
+              />
+            </div>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <h2>Lemon Cake</h2>
               <p>10€</p>
@@ -81,6 +120,9 @@ function Main() {
           backgroundColor: "#495E57",
           paddingLeft: "40px",
           paddingRight: "40px",
+          paddingTop: "10px",
+          marginLeft: "10%",
+          marginRight: "10%",
         }}
       >
         <h1 style={{ textAlign: "center", color: "#F4CE14" }}>Testimonials</h1>
@@ -98,7 +140,14 @@ function Main() {
       </div>
 
       <div
-        style={{ display: "flex", paddingLeft: "40px", paddingRight: "40px" }}
+        style={{
+          display: "flex",
+          paddingLeft: "40px",
+          paddingRight: "40px",
+          backgroundColor: "white",
+          marginLeft: "10%",
+          marginRight: "10%",
+        }}
       >
         <div>
           <h1 style={{ color: "#F4CE14" }}>Little Lemon</h1>
