@@ -5,22 +5,22 @@ function Nav() {
     <nav
       style={{
         display: "flex",
-        gap: "50px",
         alignItems: "center",
         textDecoration: "none",
         padding: "10px 40px 10px 40px",
+        gap: "100px",
       }}
     >
       <img style={{ height: "40px" }} src={logo} alt="lemon" />
       <ul
         style={{
           display: "flex",
-          justifyContent: "space-between",
-          gap: "70px",
+          gap: "50px",
           listStyle: "none",
           paddingLeft: "0",
           textDecoration: "none",
           fontWeight: "500",
+          paddingRight: "20px",
         }}
       >
         <li>

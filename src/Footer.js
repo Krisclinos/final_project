@@ -5,13 +5,12 @@ function Footer() {
     <footer
       style={{
         display: "flex",
-        justifyContent: "space-around",
+        justifyContent: "space-between",
         gap: "100px",
         backgroundColor: "#495E57",
         color: "#FFFFFF",
         listStyle: "none",
-        paddingLeft: "10px",
-        paddingRight: "10px",
+        paddingRight: "40px",
       }}
     >
       <img src={logo2} alt="lemon" />
