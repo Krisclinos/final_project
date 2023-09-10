@@ -18,9 +18,9 @@ function Main() {
         }}
       >
         <div>
-          <h1 style={{ color: "#F4CE14" }}>Little Lemon</h1>
-          <h2 style={{ color: "#F4CE14" }}>Chicago</h2>
-          <p>
+          <h1 style={{ color: "#F4CE14", fontSize: "4em" }}>Little Lemon</h1>
+          <h2 style={{ color: "#F4CE14", fontSize: "2.5em" }}>Chicago</h2>
+          <p style={{ color: "white", fontSize: "1.5em" }}>
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
