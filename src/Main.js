@@ -2,6 +2,11 @@ import salad from "./assets/Greek Salad.png";
 import bruschetta from "./assets/Bruschetta.png";
 import lemonCake from "./assets/Lemon Cake.png";
 import platter from "./assets/platter.png";
+import jane from "./assets/Jane.png";
+import jack from "./assets/Jack.png";
+import david from "./assets/David.png";
+import cook from "./assets/cook.png";
+import fish from "./assets/fish.png";
 
 function Main() {
   return (
@@ -121,20 +126,60 @@ function Main() {
           paddingLeft: "40px",
           paddingRight: "40px",
           paddingTop: "10px",
+          paddingBottom: "20px",
           marginLeft: "10%",
           marginRight: "10%",
         }}
       >
         <h1 style={{ textAlign: "center", color: "#F4CE14" }}>Testimonials</h1>
-        <div style={{ display: "flex", justifyContent: "space-around" }}>
-          <div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-around",
+            gap: "60px",
+          }}
+        >
+          <div style={{ border: "1px solid", backgroundColor: "white" }}>
             <h2>Jane</h2>
+            <div style={{ display: "flex" }}>
+              <div>
+                <img src={jane} />
+              </div>
+              <div>5</div>
+              <div>star</div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor
+            </p>
           </div>
-          <div>
+          <div style={{ border: "1px solid", backgroundColor: "white" }}>
             <h2>Jack</h2>
+            <div style={{ display: "flex" }}>
+              <div>
+                <img src={jack} />
+              </div>
+              <div>5</div>
+              <div>star</div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor
+            </p>
           </div>
-          <div>
+          <div style={{ border: "1px solid", backgroundColor: "white" }}>
             <h2>David</h2>
+            <div style={{ display: "flex" }}>
+              <div>
+                <img src={david} />
+              </div>
+              <div>5</div>
+              <div>star</div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor
+            </p>
           </div>
         </div>
       </div>
@@ -142,11 +187,11 @@ function Main() {
       <div
         style={{
           display: "flex",
-          paddingLeft: "40px",
-          paddingRight: "40px",
           backgroundColor: "white",
           marginLeft: "10%",
           marginRight: "10%",
+          gap: "50px",
+          padding: "20px 40px 20px 40px",
         }}
       >
         <div>
@@ -158,7 +203,24 @@ function Main() {
             restaurant features a locally-sourced menu with daily specials.
           </p>
         </div>
-        <div></div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "flex-start",
+            marginLeft: "100px",
+            paddingTop: "100px",
+            marginRight: "-100px",
+          }}
+        >
+          <div style={{}}>
+            <img src={fish} />
+          </div>
+          <div
+            style={{ position: "relative", bottom: "100px", right: "100px" }}
+          >
+            <img src={cook} />
+          </div>
+        </div>
       </div>
     </main>
   );
