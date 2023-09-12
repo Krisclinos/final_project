@@ -7,6 +7,7 @@ import jack from "./assets/Jack.png";
 import david from "./assets/David.png";
 import cook from "./assets/cook.png";
 import fish from "./assets/fish.png";
+import star from "./assets/star.png";
 
 function Main() {
   return (
@@ -15,16 +16,16 @@ function Main() {
         style={{
           display: "flex",
           justifyContent: "space-between",
+          alignItems: "center",
           paddingLeft: "40px",
           paddingRight: "40px",
           paddingBottom: "40px",
           marginLeft: "10%",
           marginRight: "10%",
           backgroundColor: "#495E57",
-          gap: "40px",
         }}
       >
-        <div>
+        <div style={{ maxWidth: "30%" }}>
           <h1 style={{ color: "#F4CE14", fontSize: "4em" }}>Little Lemon</h1>
           <h2 style={{ color: "#F4CE14", fontSize: "2.5em" }}>Chicago</h2>
           <p style={{ color: "white", fontSize: "1.5em", fontWeight: "bold" }}>
@@ -46,13 +47,18 @@ function Main() {
             Book a table
           </button>
         </div>
-        <div style={{ padding: "20px 0px 20px 40px" }}>
+        <div
+          style={{
+            padding: "20px 0px 20px 0px",
+            marginLeft: "100px",
+            minWidth: "10%",
+          }}
+        >
           <img
             style={{
               height: "100%",
               width: "100%",
               border: "1px solid",
-              marginLeftLeft: "40px",
             }}
             src={platter}
             alt="platter"
@@ -230,17 +236,22 @@ function Main() {
               backgroundColor: "white",
               padding: "0px 10px 10px 10px",
               borderRadius: "12px",
+              minWidth: "20%",
             }}
           >
-            <h2>Jane</h2>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <h2 style={{ paddingRight: "20px" }}>Jane</h2>
+              <p style={{ fontWeight: "bold", fontSize: "1.5em" }}>5</p>
+              <img src={star} />
+            </div>
             <div style={{ display: "flex", alignItems: "center" }}>
               <div>
                 <img src={jane} />
               </div>
-              <div>5</div>
-              <div>star</div>
             </div>
-            <p>Good food and excellent service!</p>
+            <p style={{ fontWeight: "bold" }}>
+              Good food and excellent service!
+            </p>
           </div>
           <div
             style={{
@@ -248,17 +259,22 @@ function Main() {
               backgroundColor: "white",
               padding: "0px 10px 10px 10px",
               borderRadius: "12px",
+              minWidth: "20%",
             }}
           >
-            <h2>Jack</h2>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <h2 style={{ paddingRight: "20px" }}>Jack</h2>
+              <p style={{ fontWeight: "bold", fontSize: "1.5em" }}>5</p>
+              <img src={star} />
+            </div>
             <div style={{ display: "flex", alignItems: "center" }}>
               <div>
                 <img src={jack} />
               </div>
-              <div>4</div>
-              <div>star</div>
             </div>
-            <p>The service could have been better!</p>
+            <p style={{ fontWeight: "bold" }}>
+              The service could have been better!
+            </p>
           </div>
           <div
             style={{
@@ -266,17 +282,20 @@ function Main() {
               backgroundColor: "white",
               padding: "0px 10px 10px 10px",
               borderRadius: "12px",
+              minWidth: "20%",
             }}
           >
-            <h2>David</h2>
+            <div style={{ display: "flex", alignItems: "center" }}>
+              <h2 style={{ paddingRight: "20px" }}>David</h2>
+              <p style={{ fontWeight: "bold", fontSize: "1.5em" }}>5</p>
+              <img src={star} />
+            </div>
             <div style={{ display: "flex", alignItems: "center" }}>
               <div>
                 <img src={david} />
               </div>
-              <div>5</div>
-              <div>star</div>
             </div>
-            <p>An amazing experience!</p>
+            <p style={{ fontWeight: "bold" }}>An amazing experience!</p>
           </div>
         </div>
       </div>
