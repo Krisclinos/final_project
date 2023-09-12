@@ -7,25 +7,30 @@ function Nav() {
         display: "flex",
         alignItems: "center",
         textDecoration: "none",
-        padding: "10px 40px 10px 40px",
-        gap: "100px",
+        padding: "10px 20px 10px 40px",
         backgroundColor: "white",
-        justifyContent: "space-between",
         marginLeft: "10%",
         marginRight: "10%",
+        gap: "50px",
+        justifyContent: "space-between",
       }}
     >
-      <img style={{ height: "40px" }} src={logo} alt="lemon" />
+      <div>
+        <img style={{ height: "40px" }} src={logo} alt="lemon" />
+      </div>
       <ul
         style={{
           display: "flex",
-          gap: "50px",
           listStyle: "none",
           paddingLeft: "0",
           textDecoration: "none",
           fontWeight: "500",
-          paddingRight: "20px",
+          paddingLeft: "0px",
           flexShrink: "1",
+          fontFamily: "Karla",
+          minWidth: "10%",
+          justifyContent: "space-evenly",
+          gap: "100px",
         }}
       >
         <li>

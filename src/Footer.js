@@ -18,8 +18,12 @@ function Footer() {
       >
         <img src={logo2} alt="lemon" />
         <div>
-          <h2>Doormat Navigation</h2>
-          <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+          <h2 style={{ fontFamily: "Markazi Text", fontSize: "2em" }}>
+            Doormat Navigation
+          </h2>
+          <ul
+            style={{ listStyle: "none", paddingLeft: "0", fontFamily: "Karla" }}
+          >
             <li>Home</li>
             <li>About</li>
             <li>Menu</li>
@@ -30,8 +34,12 @@ function Footer() {
         </div>
 
         <div>
-          <h2>Contact</h2>
-          <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+          <h2 style={{ fontFamily: "Markazi Text", fontSize: "2em" }}>
+            Contact
+          </h2>
+          <ul
+            style={{ listStyle: "none", paddingLeft: "0", fontFamily: "Karla" }}
+          >
             <li>Address</li>
             <li>Phone Number</li>
             <li>Email</li>
@@ -39,8 +47,12 @@ function Footer() {
         </div>
 
         <div>
-          <h2>Social Media Links</h2>
-          <ul style={{ listStyle: "none", paddingLeft: "0" }}>
+          <h2 style={{ fontFamily: "Markazi Text", fontSize: "2em" }}>
+            Social Media Links
+          </h2>
+          <ul
+            style={{ listStyle: "none", paddingLeft: "0", fontFamily: "Karla" }}
+          >
             <li>Facebook</li>
             <li>X</li>
             <li>Instagram</li>

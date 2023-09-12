@@ -41,6 +41,11 @@
   font-family: "Karla";
   src: local("Karla"),
     url(./assets/Karla/Karla-VariableFont_wght.ttf) format("truetype");
-  /* other formats include: 'woff2', 'truetype, 'opentype',
-                            'embedded-opentype', and 'svg' */
+}
+
+@font-face {
+  font-family: "Markazi Text";
+  src: local("markazi Text"),
+    url(./assets/Markazi_Text/MarkaziText-VariableFont_wght.ttf)
+      format("truetype");
 }

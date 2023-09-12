@@ -29,8 +29,9 @@ function Main() {
           <h1
             style={{
               color: "#F4CE14",
-              fontSize: "4em",
+              fontSize: "5em",
               fontFamily: "Markazi Text",
+              fontWeight: "bold",
             }}
           >
             Little Lemon
@@ -38,7 +39,7 @@ function Main() {
           <h2
             style={{
               color: "#F4CE14",
-              fontSize: "2.5em",
+              fontSize: "3em",
               fontFamily: "Markazi Text",
             }}
           >
@@ -164,6 +165,7 @@ function Main() {
                     color: "#D79310",
                     fontWeight: "bold",
                     fontSize: "1.3em",
+                    fontFamily: "Karla",
                   }}
                 >
                   10€
@@ -199,22 +201,29 @@ function Main() {
             </div>
             <div style={{ padding: "0px 10px 10px 10px" }}>
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <h2>Bruschetta</h2>
+                <h2 style={{ fontFamily: "Karla" }}>Bruschetta</h2>
                 <p
                   style={{
                     color: "#D79310",
                     fontWeight: "bold",
                     fontSize: "1.3em",
+                    fontFamily: "Karla",
                   }}
                 >
                   10€
                 </p>
               </div>
-              <p>
+              <p style={{ fontFamily: "Karla" }}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <p style={{ fontWeight: "bold", textDecoration: "underline" }}>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  textDecoration: "underline",
+                  fontFamily: "Karla",
+                }}
+              >
                 Order a delivery!
               </p>
             </div>
@@ -227,8 +236,13 @@ function Main() {
                 alt="lemon cake"
               />
             </div>
-            <div style={{ padding: "0px 10px 10px 10px" }}>
-              <div style={{ display: "flex", justifyContent: "space-between" }}>
+            <div style={{ padding: "0px 10px 10px 10px", fontFamily: "Karla" }}>
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                }}
+              >
                 <h2>Lemon Cake</h2>
                 <p
                   style={{
@@ -244,7 +258,12 @@ function Main() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <p style={{ fontWeight: "bold", textDecoration: "underline" }}>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  textDecoration: "underline",
+                }}
+              >
                 Order a delivery!
               </p>
             </div>
@@ -269,6 +288,7 @@ function Main() {
             display: "flex",
             justifyContent: "space-around",
             gap: "60px",
+            fontFamily: "Karla",
           }}
         >
           <div
@@ -364,7 +384,7 @@ function Main() {
           <h2 style={{ fontSize: "2.5em", fontFamily: "Markazi Text" }}>
             Chicago
           </h2>
-          <p style={{ fontSize: "1.5em" }}>
+          <p style={{ fontSize: "1.5em", fontFamily: "Karla" }}>
             Little Lemon is a charming neighborhood bistro that serves simple
             food and classic cocktails in a lively but casual environment. The
             restaurant features a locally-sourced menu with daily specials.
