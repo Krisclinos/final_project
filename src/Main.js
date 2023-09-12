@@ -26,9 +26,32 @@ function Main() {
         }}
       >
         <div style={{ maxWidth: "30%" }}>
-          <h1 style={{ color: "#F4CE14", fontSize: "4em" }}>Little Lemon</h1>
-          <h2 style={{ color: "#F4CE14", fontSize: "2.5em" }}>Chicago</h2>
-          <p style={{ color: "white", fontSize: "1.5em", fontWeight: "bold" }}>
+          <h1
+            style={{
+              color: "#F4CE14",
+              fontSize: "4em",
+              fontFamily: "Markazi Text",
+            }}
+          >
+            Little Lemon
+          </h1>
+          <h2
+            style={{
+              color: "#F4CE14",
+              fontSize: "2.5em",
+              fontFamily: "Markazi Text",
+            }}
+          >
+            Chicago
+          </h2>
+          <p
+            style={{
+              color: "white",
+              fontSize: "1.5em",
+              fontWeight: "bold",
+              fontFamily: "Karla",
+            }}
+          >
             We are a family owned Mediterranean restaurant, focused on
             traditional recipes served with a modern twist.
           </p>
@@ -41,7 +64,7 @@ function Main() {
               fontSize: "2em",
               borderRadius: "12px",
               fontWeight: "bold",
-              fontFamily: "inherit",
+              fontFamily: "Karla",
             }}
           >
             Book a table
@@ -84,7 +107,9 @@ function Main() {
             paddingBottom: "20px",
           }}
         >
-          <h1 style={{ fontSize: "2.5em" }}>Specials</h1>
+          <h1 style={{ fontSize: "2.5em", fontFamily: "Markazi Text" }}>
+            Specials
+          </h1>
           <button
             style={{
               backgroundColor: "#F4CE14",
@@ -127,7 +152,13 @@ function Main() {
               }}
             >
               <div style={{ display: "flex", justifyContent: "space-between" }}>
-                <h2>Greek Salad</h2>
+                <h2
+                  style={{
+                    fontFamily: "Karla",
+                  }}
+                >
+                  Greek Salad
+                </h2>
                 <p
                   style={{
                     color: "#D79310",
@@ -138,11 +169,21 @@ function Main() {
                   10€
                 </p>
               </div>
-              <p>
+              <p
+                style={{
+                  fontFamily: "Karla",
+                }}
+              >
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <p style={{ fontWeight: "bold", textDecoration: "underline" }}>
+              <p
+                style={{
+                  fontWeight: "bold",
+                  textDecoration: "underline",
+                  fontFamily: "Karla",
+                }}
+              >
                 Order a delivery!
               </p>
             </div>
@@ -311,8 +352,18 @@ function Main() {
         }}
       >
         <div>
-          <h1 style={{ color: "#F4CE14", fontSize: "3.5em" }}>Little Lemon</h1>
-          <h2 style={{ fontSize: "2.5em" }}>Chicago</h2>
+          <h1
+            style={{
+              color: "#F4CE14",
+              fontSize: "3.5em",
+              fontFamily: "Markazi Text",
+            }}
+          >
+            Little Lemon
+          </h1>
+          <h2 style={{ fontSize: "2.5em", fontFamily: "Markazi Text" }}>
+            Chicago
+          </h2>
           <p style={{ fontSize: "1.5em" }}>
             Little Lemon is a charming neighborhood bistro that serves simple
             food and classic cocktails in a lively but casual environment. The
