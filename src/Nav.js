@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "./assets/Logo.png";
 
 function Nav() {
@@ -34,40 +35,40 @@ function Nav() {
         }}
       >
         <li>
-          <a
+          <Link
             style={{
               textDecoration: "none",
               color: "#000000",
               flexShrink: "1",
             }}
-            href=""
+            to="/"
           >
             Home
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             style={{
               textDecoration: "none",
               color: "#000000",
               flexShrink: "1",
             }}
-            href=""
+            to="/about"
           >
             About
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             style={{
               textDecoration: "none",
               color: "#000000",
               flexShrink: "1",
             }}
-            href=""
+            to="/menu"
           >
             Menu
-          </a>
+          </Link>
         </li>
         <li>
           <a

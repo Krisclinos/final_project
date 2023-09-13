@@ -1,5 +1,5 @@
-import cook from "./assets/cook.png";
-import fish from "./assets/fish.png";
+import cook from "../assets/cook.png";
+import fish from "../assets/fish.png";
 
 function About() {
   return (
