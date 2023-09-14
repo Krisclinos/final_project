@@ -1,4 +1,4 @@
-import platter from "./assets/platter.png";
+import platter from "../assets/platter.png";
 
 function Main() {
   return (

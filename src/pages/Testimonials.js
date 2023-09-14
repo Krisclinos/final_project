@@ -1,7 +1,7 @@
-import jane from "./assets/Jane.png";
-import jack from "./assets/Jack.png";
-import david from "./assets/David.png";
-import star from "./assets/star.png";
+import jane from "../assets/Jane.png";
+import jack from "../assets/Jack.png";
+import david from "../assets/David.png";
+import star from "../assets/star.png";
 
 function Testimonials() {
   return (

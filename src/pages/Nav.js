@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "./assets/Logo.png";
+import logo from "../assets/Logo.png";
 
 function Nav() {
   return (
@@ -71,40 +71,40 @@ function Nav() {
           </Link>
         </li>
         <li>
-          <a
+          <Link
             style={{
               textDecoration: "none",
               color: "#000000",
               flexShrink: "1",
             }}
-            href=""
+            to="/reservation"
           >
             Reservation
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             style={{
               textDecoration: "none",
               color: "#000000",
               flexShrink: "1",
             }}
-            href=""
+            to="/orderOnline"
           >
             Order Online
-          </a>
+          </Link>
         </li>
         <li>
-          <a
+          <Link
             style={{
               textDecoration: "none",
               color: "#000000",
               flexShrink: "1",
             }}
-            href=""
+            to="/login"
           >
             Login
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>

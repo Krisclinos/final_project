@@ -1,6 +1,6 @@
-import salad from "./assets/Greek Salad.png";
-import bruschetta from "./assets/Bruschetta.png";
-import lemonCake from "./assets/Lemon Cake.png";
+import salad from "../assets/Greek Salad.png";
+import bruschetta from "../assets/Bruschetta.png";
+import lemonCake from "../assets/Lemon Cake.png";
 
 function Specials() {
   return (
