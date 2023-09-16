@@ -11,6 +11,21 @@ function BookingForm() {
     console.log("Form submitted");
   };
 
+  const availableTimes = [
+    "11:00",
+    "12:00",
+    "13:00",
+    "14:00",
+    "15:00",
+    "16:00",
+    "17:00",
+    "18:00",
+    "19:00",
+    "20:00",
+    "21:00",
+    "22:00",
+  ];
+
   return (
     <div
       style={{
@@ -42,12 +57,9 @@ function BookingForm() {
           value={time}
           onchange={(e) => setTime(e.target.value)}
         >
-          <option>17:00</option>
-          <option>18:00</option>
-          <option>19:00</option>
-          <option>20:00</option>
-          <option>21:00</option>
-          <option>22:00</option>
+          {availableTimes.map((x) => (
+            <option>{x}</option>
+          ))}
         </select>
         <label for="guests">Number of guests</label>
         <input
