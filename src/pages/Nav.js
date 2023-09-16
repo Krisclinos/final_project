@@ -77,7 +77,7 @@ function Nav() {
               color: "#000000",
               flexShrink: "1",
             }}
-            to="/reservation"
+            to="/booking"
           >
             Reservation
           </Link>
