@@ -1,8 +1,8 @@
 import { useState } from "react";
 
-function BookingForm() {
+function BookingForm({ props }) {
   const [date, setDate] = useState("");
-  const [time, setTime] = useState("");
+
   const [guests, setGuests] = useState("");
   const [occasion, setOccasion] = useState("");
 
@@ -10,21 +10,6 @@ function BookingForm() {
     e.preventDefault();
     console.log("Form submitted");
   };
-
-  const availableTimes = [
-    "11:00",
-    "12:00",
-    "13:00",
-    "14:00",
-    "15:00",
-    "16:00",
-    "17:00",
-    "18:00",
-    "19:00",
-    "20:00",
-    "21:00",
-    "22:00",
-  ];
 
   return (
     <div
@@ -55,11 +40,9 @@ function BookingForm() {
         <select
           id="res-time "
           value={time}
-          onchange={(e) => setTime(e.target.value)}
+          onChange={(e) => setTime(e.target.value)}
         >
-          {availableTimes.map((x) => (
-            <option>{x}</option>
-          ))}
+          <option>{{props.someTime}}</option>
         </select>
         <label for="guests">Number of guests</label>
         <input
